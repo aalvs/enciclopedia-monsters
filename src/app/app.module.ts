@@ -9,6 +9,7 @@ import { LideresComponent } from './components/lideres/lideres.component';
 import { MedalhasComponent } from './components/medalhas/medalhas.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ApiResourceService } from './shared/services/api-resource.service';
+import { FooterComponent } from './layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ApiResourceService } from './shared/services/api-resource.service';
     NavbarComponent,
     MonstrosComponent,
     LideresComponent,
-    MedalhasComponent
+    MedalhasComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
