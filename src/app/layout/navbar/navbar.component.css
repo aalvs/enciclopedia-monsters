@@ -10,10 +10,10 @@ nav {
 }
 
 nav h1 {
-  color: var(--dark-blue);
-  padding: 0.5rem;
+  color: white;
+  padding: 0.5rem 0.8rem;
   border: 1px solid;
-  border-color: var(--c-orange);
+  background: var(--c-orange);
   border-radius: 0.25rem;
 }
 
