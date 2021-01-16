@@ -1,2 +1,16 @@
-<p>navbar works!</p>
-
+<header>
+  <nav class="wrapper">
+    <h1>Enciclopédia de Monstros</h1>
+    <ul class="menu">
+      <li>
+        <a [routerLink]="['/monstros']" routerLinkActive="active">Monstros</a>
+      </li>
+      <li>
+        <a [routerLink]="['/lideres']" routerLinkActive="active">Lideres</a>
+      </li>
+      <li>
+        <a [routerLink]="['/medalhas']" routerLinkActive="active">Medalhas</a>
+      </li>
+    </ul>
+  </nav>
+</header>

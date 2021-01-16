@@ -1,0 +1,33 @@
+header {
+  background: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+nav h1 {
+  color: var(--dark-blue);
+  padding: 0.5rem;
+  border: 1px solid;
+  border-color: var(--c-orange);
+  border-radius: 0.25rem;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu li a {
+  color: var(--c-gray);
+}
+
+.menu li a:hover {
+  color: var(--c-orange);
+  border-bottom: 3px solid;
+  border-color: var(--c-orange);
+}
