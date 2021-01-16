@@ -6,9 +6,9 @@ import { MonstrosComponent } from './components/monstros/monstros.component';
 
 const routes: Routes = [
 
-  { path: 'monstros', component: MonstrosComponent },
-  { path: 'lideres', component: LideresComponent },
-  { path: 'medalhas', component: MedalhasComponent },
+  { path: 'monstros', component: MonstrosComponent, data: { title: 'Monstros' } },
+  { path: 'lideres', component: LideresComponent, data: { title: 'Lideres' } },
+  { path: 'medalhas', component: MedalhasComponent,data: { title: 'Medalhas' } },
   { path: '', redirectTo: '/monstros', pathMatch: 'full' }
 
 ];
