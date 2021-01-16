@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  apiUrl: "https://github.com/FactorMouk/api_monstrinhos_sul",
+  apiUrl: 'https://my-json-server.typicode.com/FactorMouk/api_monstrinhos_sul/',
   production: false
 };
 
