@@ -1,6 +1,39 @@
-<div class="wrap">
-  <ul class="card" *ngFor="let m of monstros">
-    <li>{{m.nome}}</li>
-  </ul>
-</div>
+<section class="wrapper">
+  <h2>Monstros</h2>
+  <div class="grid-container">
+    <ul class="card" *ngFor="let i of monstros">
+      <li class="icon-monster">
+        <img src="../../../assets/icons/monster.svg" alt="Monster">
+      </li>
+      <li class="data-card">
+        <p>Nome</p>
+        <span>{{i.nome}}</span>
+      </li>
+      <li class="data-card">
+        <p>Tipos</p>
+        <span>{{i.tipos}}</span>
+      </li>
+      <li class="data-card">
+        <p>Descrição</p>
+        <span>{{i.descricao}}</span>
+      </li>
+      <li>
+        <ul class="data-group">
+          <li class="data-card">
+            <p>Altura</p>
+            <span>{{i.altura}}</span>
+          </li>
+          <li class="data-card">
+            <p>Peso</p>
+            <span>{{i.peso}}</span>
+          </li>
+        </ul>
+      </li>
+      <li class="data-card">
+        <p>Habilidades</p>
+        <span>{{i.habilidades}}</span>
+      </li>
+    </ul>
+  </div>
+</section>
 

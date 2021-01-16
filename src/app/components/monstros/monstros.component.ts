@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Monstros } from 'src/app/shared/models/monstros.model';
+import { ApiResourceService } from 'src/app/shared/services/api-resource.service';
 
 @Component({
   selector: 'app-monstros',
@@ -8,11 +9,18 @@ import { Monstros } from 'src/app/shared/models/monstros.model';
 })
 export class MonstrosComponent implements OnInit {
 
-  monstros: Monstros[];
+  monstros: Monstros;
 
-  constructor() { }
+  constructor(public service: ApiResourceService) { }
 
   ngOnInit(): void {
+    this.listar();
   }
 
+  public listar() {
+    this.service.getMontstros().subscribe(data => {
+      this.monstros = data;
+      console.log(this.monstros);
+    });
+  }
 }

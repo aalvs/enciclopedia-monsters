@@ -1,0 +1,60 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem 1rem;
+  grid-template-areas:
+    ". . . .";
+}
+
+section h2 {
+  padding: 2rem 0 1rem;
+  color: var(--c-gray);
+}
+
+.card {
+  background: white;
+  color: var(--c-gray);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid;
+  border-color: white;
+}
+
+.card:hover {
+  border-color: var(--c-orange);
+  box-shadow: 0 25px 50px rgba(15, 42, 70, 0.06);
+}
+
+.icon-monster{
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.icon-monster img {
+  width: 50%;
+}
+
+.data-card p {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  background: #f9f9f9;
+  color: var(--c-orange);
+  padding: 0.2rem;
+}
+
+.data-card span {
+  display: block;
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+  text-align: left;
+}
+
+.data-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.data-group li {
+  width: 50%;
+}
