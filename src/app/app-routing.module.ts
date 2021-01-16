@@ -8,7 +8,7 @@ const routes: Routes = [
 
   { path: 'monstros', component: MonstrosComponent, data: { title: 'Monstros' } },
   { path: 'lideres', component: LideresComponent, data: { title: 'Lideres' } },
-  { path: 'medalhas', component: MedalhasComponent,data: { title: 'Medalhas' } },
+  { path: 'medalhas', component: MedalhasComponent, data: { title: 'Medalhas' } },
   { path: '', redirectTo: '/monstros', pathMatch: 'full' }
 
 ];
