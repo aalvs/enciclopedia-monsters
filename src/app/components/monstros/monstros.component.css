@@ -26,12 +26,12 @@ section h2 {
   box-shadow: 0 25px 50px rgba(15, 42, 70, 0.06);
 }
 
-.icon-monster{
+.icon{
   display: flex;
   justify-content: center;
   padding: 1rem 0;
 }
-.icon-monster img {
+.icon img {
   width: 50%;
 }
 
