@@ -1,2 +1,23 @@
-<p>lideres works!</p>
-
+<section class="wrapper">
+  <h2>Lideres</h2>
+  <div class="list-container">
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Nome</th>
+          <th>Título</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="card" *ngFor="let i of lideres" data-aos="flip-up">
+          <td class="icon">
+            <img src="../../../assets/icons/trophy.svg" alt="Troféu">
+          </td>
+          <td class="nome">{{i.nome}}</td>
+          <td class="titulo">{{i.titulo}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
