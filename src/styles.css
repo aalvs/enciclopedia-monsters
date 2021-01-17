@@ -16,7 +16,11 @@
 
 html, body {
   font-family: 'Ubuntu', sans-serif;
+}
+
+body {
   background: var(--bg-light);
+  margin-bottom: 5rem;
 }
 
 li {
