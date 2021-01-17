@@ -23,8 +23,8 @@ https://my-json-server.typicode.com/FactorMouk/api_monstrinhos_sul/
 
 # 📚 O que eu aprendi com o projeto!
 
-- Consumir dados de uma API usando o módulo http;
-- Configurando rotas com Angular;
+- Consumir dados de uma API usando o módulo httpClient;
+- Configurar rotas no Angular usando o módulo Routes;
 
 # 💻 Tecnologias
 
@@ -35,6 +35,8 @@ https://my-json-server.typicode.com/FactorMouk/api_monstrinhos_sul/
 <a href='https://www.w3schools.com/html/'>HTML5</a>
 <br/>
 <a href='https://www.w3schools.com/css/'>CSS3</a>
+<br/>
+<a href='https://michalsnik.github.io/aos/'>Library AOS</a>
 <br/>
 <a href='https://code.visualstudio.com/'>Visual Studio Code</a>
 <br/>
