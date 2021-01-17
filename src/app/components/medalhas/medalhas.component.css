@@ -1,0 +1,37 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem 1rem;
+  grid-template-areas:
+    ". . . .";
+}
+
+section h2 {
+  padding: 2rem 0 1rem;
+  color: var(--c-gray);
+}
+
+.card {
+  background: white;
+  color: var(--c-orange);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid;
+  border-color: white;
+  text-align: center;
+}
+
+.card:hover {
+  border-color: var(--c-orange);
+  box-shadow: 0 25px 50px rgba(15, 42, 70, 0.06);
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.icon img {
+  width: 40%;
+}

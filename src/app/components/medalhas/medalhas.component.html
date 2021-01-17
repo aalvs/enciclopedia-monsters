@@ -1,2 +1,13 @@
-<p>medalhas works!</p>
-
+<section class="wrapper">
+  <h2>Medalhas</h2>
+  <div class="grid-container">
+    <ul class="card" *ngFor="let i of medalhas" data-aos="zoom-in">
+      <li class="icon">
+        <img src="../../../assets/icons/badge.svg" alt="Medalha">
+      </li>
+      <li class="data-card">
+        <span>{{i.nome}}</span>
+      </li>
+    </ul>
+  </div>
+</section>
